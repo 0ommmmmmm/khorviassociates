@@ -175,7 +175,7 @@ function Nav() {
         <div className="hidden lg:block">
           <a href="tel:+919591345320">
             <Button className="bg-gradient-gold text-primary-foreground font-medium rounded-full px-5 hover:opacity-95 shadow-glow">
-              <PhoneCall className="h-4 w-4" /> Get Free Consultation
+              <PhoneCall className="h-4 w-4" /> Call Now
             </Button>
           </a>
         </div>
@@ -202,7 +202,7 @@ function Nav() {
             ))}
             <a href="tel:+919591345320" onClick={() => setOpen(false)}>
               <Button className="w-full bg-gradient-gold text-primary-foreground rounded-full mt-2">
-                <PhoneCall className="h-4 w-4" /> Get Free Consultation
+                <PhoneCall className="h-4 w-4" /> Call Now
               </Button>
             </a>
           </nav>
@@ -273,7 +273,7 @@ function Hero() {
               </div>
               <div>
                 <div className="text-xs text-muted-foreground">Returns filed</div>
-                <div className="text-sm font-semibold">1,000+</div>
+                <div className="text-sm font-semibold">50000+</div>
               </div>
             </div>
             <div className="absolute bottom-8 -right-2 glass rounded-2xl p-3 flex items-center gap-2 animate-float shadow-elegant" style={{ animationDelay: "1.2s" }}>
@@ -343,8 +343,8 @@ function About() {
           </h2>
           <p className="mt-6 text-muted-foreground leading-relaxed">
             Khorvi Associates is a trusted tax and accounting consultancy based in Belagavi,
-            helping businesses and individuals with GST registration, GST return filing,
-            accounting, income tax, partnership deeds and project reports. Our focus is on
+            helping businesses and individuals with GST Registration, GST return Filing,
+            Accounting, Income Tax, Partnership deeds,Project Reports and Financial Advices. Our focus is on
             providing accurate, timely and personalized financial solutions while ensuring
             complete compliance.
           </p>
@@ -363,10 +363,10 @@ function About() {
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          <Stat target={1000} suffix="+" label="Returns Filed" />
-          <Stat target={500} suffix="+" label="Happy Clients" />
+          <Stat target={50000} suffix="+" label="Returns Filed" />
+          <Stat target={600} suffix="+" label="Happy Clients" />
           <Stat target={10} suffix="+" label="Years Experience" />
-          <Stat target={99} suffix="%" label="Client Satisfaction" />
+          <Stat target={100} suffix="%" label="Client Satisfaction" />
         </div>
       </div>
     </section>
