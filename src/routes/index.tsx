@@ -730,12 +730,13 @@ function Contact() {
 
             <div className="card-premium overflow-hidden">
               <iframe
-                title="Khorvi Associates location"
-                src="https://www.google.com/maps?q=Udyambag+Belagavi+Karnataka+590008&output=embed"
-                className="w-full h-64 border-0"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+  title="Khorvi Associates location"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.7877734531817!2d74.4899794!3d15.8151406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf65da839648e5%3A0xc1471a53b3f80d5c!2sKhorvi%20Associates!5e0!3m2!1sen!2sin!4v1784385561522!5m2!1sen!2sin"
+  className="w-full h-64 rounded-2xl border-0"
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="strict-origin-when-cross-origin"
+/>
             </div>
           </div>
         </div>
