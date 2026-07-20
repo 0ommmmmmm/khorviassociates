@@ -273,7 +273,7 @@ function Hero() {
               </div>
               <div>
                 <div className="text-xs text-muted-foreground">Returns filed</div>
-                <div className="text-sm font-semibold">50000+</div>
+                <div className="text-sm font-semibold">5000+</div>
               </div>
             </div>
             <div className="absolute bottom-8 -right-2 glass rounded-2xl p-3 flex items-center gap-2 animate-float shadow-elegant" style={{ animationDelay: "1.2s" }}>
