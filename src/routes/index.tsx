@@ -156,7 +156,7 @@ function Nav() {
     className="h-12 w-auto object-contain"
   />
 
-  <span className="font-display font-bold text-lg tracking-tight">
+  <span className="font-sora font-bold text-lg tracking-tight">
     Khorvi <span className="text-gradient-gold">Associates</span>
   </span>
 </a>
@@ -684,12 +684,12 @@ function Contact() {
                   </div>
                   <div className="min-w-0 space-y-2.5">
                     <div>
-                      <div className="text-xs text-muted-foreground">Datta Khorvi</div>
-                      <a href="tel:+919844135377" className="font-medium hover:text-primary transition-colors">+91 98441 35377</a>
+                      <div className="text-xs text-muted-foreground">Vishal Khorvi</div>
+                      <a href="tel:+919844135377" className="font-medium hover:text-primary transition-colors">+91 95913 45320</a>
                     </div>
                     <div>
-                      <div className="text-xs text-muted-foreground">Vishal Khorvi</div>
-                      <a href="tel:+919591345320" className="font-medium hover:text-primary transition-colors">+91 95913 45320</a>
+                      <div className="text-xs text-muted-foreground">Datta Khorvi</div>
+                      <a href="tel:+919591345320" className="font-medium hover:text-primary transition-colors">+91 98441 35377</a>
                     </div>
                   </div>
                 </div>
@@ -750,10 +750,16 @@ function Footer() {
     <footer className="relative border-t border-white/5 pt-16 pb-8">
       <div className="mx-auto max-w-7xl px-6 grid md:grid-cols-4 gap-10">
         <div>
-          <div className="flex items-center gap-2.5 mb-4">
-            <span className="grid place-items-center h-10 w-10 rounded-xl bg-gradient-gold text-primary-foreground font-display font-bold">K</span>
-            <span className="font-display font-bold text-lg">Khorvi Associates</span>
-          </div>
+           <div className="flex items-center gap-3 mb-4">
+  <img
+    src="/logo.png"
+    alt="Khorvi Associates"
+    className="h-12 w-auto object-contain"
+  />
+  <span className="font-display font-bold text-lg">
+    Khorvi Associates
+  </span>
+</div>
           <p className="text-sm text-muted-foreground leading-relaxed">
             Trusted GST, tax and accounting consultants in Belagavi delivering accurate, timely and personalized financial solutions.
           </p>
