@@ -363,7 +363,7 @@ function About() {
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          <Stat target={50000} suffix="+" label="Returns Filed" />
+          <Stat target={5000} suffix="+" label="Returns Filed" />
           <Stat target={600} suffix="+" label="Happy Clients" />
           <Stat target={10} suffix="+" label="Years Experience" />
           <Stat target={100} suffix="%" label="Client Satisfaction" />
