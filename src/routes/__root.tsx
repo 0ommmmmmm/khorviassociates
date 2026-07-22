@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Khorvi Associates — GST, Tax & Business Compliance Consultants in Belagavi" },
-      { name: "description", content: "Khorvi Associates is a trusted Chartered Accountant & GST consultancy in Belagavi offering GST registration, return filing, income tax, accounting and business compliance." },
+      { name: "description", content: "Khorvi Associates is a trusted GST consultancy in Belagavi offering GST registration, return filing, income tax, accounting and business compliance." },
       { name: "author", content: "Khorvi Associates" },
       { property: "og:title", content: "Khorvi Associates — Trusted GST & Tax Consultants" },
       { property: "og:description", content: "Simplify taxation with accurate, reliable and timely financial solutions from Khorvi Associates, Belagavi." },

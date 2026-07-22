@@ -31,14 +31,14 @@ const NAV = [
 ];
 
 const SERVICES = [
-  { icon: FileCheck2, title: "GST Registration", desc: "Quick, seamless GST registration for businesses, professionals and startups." },
-  { icon: Receipt, title: "GST Return Filing", desc: "Accurate monthly, quarterly and annual GST returns filed on time, every time." },
-  { icon: BookOpen, title: "Accounting & Bookkeeping", desc: "End-to-end bookkeeping with clean, audit-ready books of accounts." },
+  { icon: FileCheck2, title: "GST Registration", desc: "Fast GST registration for Proprietors, Firms, LLPs, Companies, Startups, Freelancers, and e-commerce businesses." },
+  { icon: Receipt, title: "GST Return Filing", desc: "Timely GST return filing with accurate compliance, ITC reconciliation, and notice support." },
+  { icon: BookOpen, title: "Accounting & Bookkeeping", desc: "Professional book-keeping including accounts, bank reconciliation, ledgers, and financial reports." },
   { icon: Calculator, title: "Accounts Finalization", desc: "Year-end finalization, P&L and balance sheet preparation with precision." },
-  { icon: FileSpreadsheet, title: "Income Tax Return Filing", desc: "Optimized ITR filing for individuals, professionals and businesses." },
-  { icon: Handshake, title: "Partnership Deed", desc: "Professionally drafted partnership deeds and firm registrations." },
-  { icon: ClipboardList, title: "Project Reports", desc: "Bank-ready project reports and CMA data for loans and funding." },
-  { icon: ShieldCheck, title: "Business Compliance", desc: "Ongoing advisory to keep your business fully compliant and stress-free." },
+  { icon: FileSpreadsheet, title: "Income Tax Return Filing", desc: "Income tax filing for individuals, professionals, businesses, and firms with expert tax planning." },
+  { icon: Handshake, title: "Partnership Deed", desc: "Customized partnership deeds with registration, modifications, and legal guidance." },
+  { icon: ClipboardList, title: "Project Reports", desc: "Bank-ready project reports with CMA data, financial projections, and loan documentation." },
+  { icon: ShieldCheck, title: "Business Compliance", desc: "End-to-end compliance services covering GST, Income Tax, TDS, PT, and annual filings." },
 ];
 
 const WHY_US = [
@@ -240,11 +240,20 @@ function Hero() {
                 <PhoneCall className="h-4 w-4" /> Book Free Consultation
               </Button>
             </a>
-            <a href="https://wa.me/919591345320" target="_blank" rel="noopener">
-              <Button size="lg" variant="outline" className="rounded-full px-7 h-12 border-white/15 bg-white/5 hover:bg-white/10">
-                <MessageCircle className="h-4 w-4" /> WhatsApp
-              </Button>
-            </a>
+            <a
+  href="https://wa.me/919591345320?text=Hello%20Khorvi%20Associates,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button
+    size="lg"
+    variant="outline"
+    className="rounded-full px-7 h-12 border-white/15 bg-white/5 hover:bg-white/10"
+  >
+    <MessageCircle className="h-4 w-4" />
+    WhatsApp Now
+  </Button>
+</a>
           </div>
 
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -273,7 +282,7 @@ function Hero() {
               </div>
               <div>
                 <div className="text-xs text-muted-foreground">Returns filed</div>
-                <div className="text-sm font-semibold">5000+</div>
+                <div className="text-sm font-semibold">2500+</div>
               </div>
             </div>
             <div className="absolute bottom-8 -right-2 glass rounded-2xl p-3 flex items-center gap-2 animate-float shadow-elegant" style={{ animationDelay: "1.2s" }}>
@@ -363,10 +372,10 @@ function About() {
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          <Stat target={5000} suffix="+" label="Returns Filed" />
+          <Stat target={2500} suffix="+" label="Returns Filed" />
           <Stat target={600} suffix="+" label="Happy Clients" />
           <Stat target={10} suffix="+" label="Years Experience" />
-          <Stat target={100} suffix="%" label="Client Satisfaction" />
+          <Stat target={99} suffix="%" label="Client Satisfaction" />
         </div>
       </div>
     </section>
@@ -675,7 +684,7 @@ function Contact() {
               </div>
 
               <div className="font-display font-bold text-xl">Khorvi Associates</div>
-              <div className="mt-1 text-xs text-muted-foreground">Chartered Accountant & GST Consultants</div>
+              <div className="mt-1 text-xs text-muted-foreground">GST Consultants</div>
 
               <div className="mt-6 space-y-5">
                 <div className="flex items-start gap-3">
