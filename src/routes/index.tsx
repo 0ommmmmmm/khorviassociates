@@ -590,7 +590,7 @@ function Contact() {
             <div className="relative card-premium hover-lift p-7 md:p-10 h-full">
               <div className="inline-flex items-center gap-2 glass rounded-full px-3.5 py-1.5 text-xs text-muted-foreground mb-6">
                 <Sparkles className="h-3.5 w-3.5 text-primary" />
-                Trusted CA & GST Consultants
+                GST Consultants
               </div>
               <h3 className="font-display font-bold text-2xl md:text-3xl leading-tight">
                 Need Professional <span className="text-gradient-gold">GST & Tax</span> Assistance?
